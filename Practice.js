@@ -79,4 +79,17 @@ var server = http.createServer(function(req,res){
 }).listen(3000);
 
 console.log("server running on port 3000");
-*/
+
+7)
+index.js=> write into
+var name = {
+        fname: "Hi",
+        lname: " I am Harsh"
+};
+module.exports = {name};
+
+second.js => write into
+var imp = require("./index.js");
+
+console.log(imp.name.fname +
+     imp.name.lname);*/
